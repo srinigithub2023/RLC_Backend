@@ -93,10 +93,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-                    <uberJar>true</uberJar>
-                </configuration>
+				
                 
+			</plugin>
+			<plugin>
+			<artifactId>quarkus-maven-plugin</artifactId>
+			<version>2.16.5</version>
+			<configuration>
+				<uberJar>true</uberJar>
+			</configuration>
 			</plugin>
 		</plugins>
 	</build>
